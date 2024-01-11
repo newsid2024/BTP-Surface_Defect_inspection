@@ -35,6 +35,11 @@ To further improve this project, consider the following potential areas for futu
 
 - **Extended Dataset:** Continuously expand the dataset to encompass a broader range of metal surface defect scenarios, improving the model's generalization capabilities.
 
+- we would like to optimize the model by not only categorizing but also to locate defects on the metal surface by considering using object detection models such as Faster R-CNN, YOLO, or SSD.
+We may also explore Anomaly Detection Models if the defects on the metal surface found to be rare or have diverse patterns!
+
+
+
 ## Unsupervised and Semi-Supervised Learning
 While the current project focuses on supervised learning, future iterations could explore unsupervised or semi-supervised learning approaches. Unsupervised learning methods, such as clustering algorithms, can be employed to identify patterns and group similar images without labeled data. Additionally, semi-supervised learning techniques involve leveraging a small amount of labeled data along with a larger pool of unlabeled data, potentially enhancing model performance with limited labeled samples.
 
