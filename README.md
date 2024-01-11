@@ -7,7 +7,7 @@ This deep learning project focuses on classifying metal surface defects using im
 The model predictions and true categories for the metal surface defects are presented below:
 
 - **Prediction (True Category)**
-  - [Insert results here]
+  - ![Test Results](test_result.png)
 
 For a detailed visual representation, refer to the test results image provided in the repository.
 
@@ -41,5 +41,5 @@ While the current project focuses on supervised learning, future iterations coul
 Feel free to contribute to these areas or explore new avenues for advancing the project.
 
 
-![Test Results](test_result.png)
+
 
