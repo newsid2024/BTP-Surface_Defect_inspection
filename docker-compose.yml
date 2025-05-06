@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  api:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./models:/app/models
+    environment:
+      - FLASK_ENV=production
+      - MODEL_PATH=models/surface_defect_model.h5
+    restart: unless-stopped
+    
+  tests:
+    build: .
+    command: pytest
+    volumes:
+      - ./:/app
+    environment:
+      - FLASK_ENV=testing
+      - MODEL_PATH=models/surface_defect_model.h5 
